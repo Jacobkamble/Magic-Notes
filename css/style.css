@@ -1,0 +1,28 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* align card center */
+.flexClass{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    display: block;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* align notes evenly */
+.even{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* increase width of card textarea */
+.card-body{
+    width: 28rem;
+}
